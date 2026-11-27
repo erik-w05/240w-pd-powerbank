@@ -45,3 +45,8 @@ On JLCPCB the board itself costs about 100€/5 Pieces and the components are ab
 
 My old powerbank broke a couple of months ago and I always wanted to make one myself. And I also noticed, that such an Product didn't yet exist on the market, so I decided to make the first.
 
+Inspiration:
+
+Thanks for Theo Heng for giving me the idea and orientation on how to implement it.
+https://github.com/theohg/PD240W
+
