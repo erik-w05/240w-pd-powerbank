@@ -9524,6 +9524,18 @@
 		)
 		(uuid "be9ac065-9fa9-4405-a48b-b86f628c16fa")
 	)
+	(text "Testpoints"
+		(exclude_from_sim no)
+		(at -43.18 191.135 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "c2e8c346-51e1-4687-9f28-fbd1d1240399")
+	)
 	(text "10S (VFBG=1,534)"
 		(exclude_from_sim no)
 		(at 374.015 139.954 0)
@@ -10199,7 +10211,7 @@
 		(uuid "ff190a13-c2c6-4c94-82cf-6300e0165fde")
 	)
 	(bus_entry
-		(at -13.97 27.94)
+		(at -19.05 45.085)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -10208,7 +10220,7 @@
 		(uuid "656be210-23a9-4453-848d-0b9b637e8af3")
 	)
 	(bus_entry
-		(at -13.97 35.56)
+		(at -19.05 52.705)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -10217,7 +10229,7 @@
 		(uuid "6abc4fdb-9e8f-465f-8ff4-a8b19f3c3db0")
 	)
 	(bus_entry
-		(at -13.97 48.26)
+		(at -19.05 65.405)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -10226,7 +10238,7 @@
 		(uuid "9e5f4b0a-6174-4ad5-8787-37791f8eb093")
 	)
 	(bus_entry
-		(at -13.97 31.75)
+		(at -19.05 48.895)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -10235,7 +10247,7 @@
 		(uuid "d3dd680c-3a38-4d49-b25a-ce505074bde4")
 	)
 	(bus_entry
-		(at -13.97 44.45)
+		(at -19.05 61.595)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -10315,7 +10327,7 @@
 	)
 	(wire
 		(pts
-			(xy -53.0785 96.52) (xy -12.4385 96.52)
+			(xy -61.3335 216.535) (xy -20.6935 216.535)
 		)
 		(stroke
 			(width 0)
@@ -10415,7 +10427,7 @@
 	)
 	(wire
 		(pts
-			(xy -45.72 78.74) (xy -5.08 78.74)
+			(xy -50.8 95.885) (xy -10.16 95.885)
 		)
 		(stroke
 			(width 0)
@@ -10905,7 +10917,7 @@
 	)
 	(bus
 		(pts
-			(xy -13.97 44.45) (xy -13.97 48.26)
+			(xy -19.05 61.595) (xy -19.05 65.405)
 		)
 		(stroke
 			(width 0)
@@ -10985,7 +10997,7 @@
 	)
 	(wire
 		(pts
-			(xy -53.0785 86.36) (xy -12.4385 86.36)
+			(xy -61.3335 206.375) (xy -20.6935 206.375)
 		)
 		(stroke
 			(width 0)
@@ -10995,7 +11007,7 @@
 	)
 	(wire
 		(pts
-			(xy -52.07 121.92) (xy -11.43 121.92)
+			(xy -60.325 241.935) (xy -19.685 241.935)
 		)
 		(stroke
 			(width 0)
@@ -11195,7 +11207,7 @@
 	)
 	(wire
 		(pts
-			(xy -49.1565 141.605) (xy -8.5165 141.605)
+			(xy -57.4115 261.62) (xy -16.7715 261.62)
 		)
 		(stroke
 			(width 0)
@@ -11325,7 +11337,7 @@
 	)
 	(wire
 		(pts
-			(xy -52.07 117.475) (xy -11.43 117.475)
+			(xy -60.325 237.49) (xy -19.685 237.49)
 		)
 		(stroke
 			(width 0)
@@ -11405,7 +11417,7 @@
 	)
 	(wire
 		(pts
-			(xy -53.0785 101.6) (xy -12.4385 101.6)
+			(xy -61.3335 221.615) (xy -20.6935 221.615)
 		)
 		(stroke
 			(width 0)
@@ -11495,7 +11507,7 @@
 	)
 	(wire
 		(pts
-			(xy -49.53 136.525) (xy -8.89 136.525)
+			(xy -57.785 256.54) (xy -17.145 256.54)
 		)
 		(stroke
 			(width 0)
@@ -11585,7 +11597,7 @@
 	)
 	(wire
 		(pts
-			(xy -29.21 71.12) (xy 2.54 71.12)
+			(xy -34.29 88.265) (xy -2.54 88.265)
 		)
 		(stroke
 			(width 0)
@@ -11595,7 +11607,7 @@
 	)
 	(wire
 		(pts
-			(xy -11.43 30.48) (xy 2.54 30.48)
+			(xy -16.51 47.625) (xy -2.54 47.625)
 		)
 		(stroke
 			(width 0)
@@ -11615,7 +11627,7 @@
 	)
 	(bus
 		(pts
-			(xy -36.83 27.94) (xy -13.97 27.94)
+			(xy -41.91 45.085) (xy -19.05 45.085)
 		)
 		(stroke
 			(width 0)
@@ -11705,7 +11717,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 64.77) (xy 2.54 64.77)
+			(xy -33.02 81.915) (xy -2.54 81.915)
 		)
 		(stroke
 			(width 0)
@@ -11735,7 +11747,7 @@
 	)
 	(wire
 		(pts
-			(xy -11.43 50.8) (xy 2.54 50.8)
+			(xy -16.51 67.945) (xy -2.54 67.945)
 		)
 		(stroke
 			(width 0)
@@ -11975,7 +11987,7 @@
 	)
 	(bus
 		(pts
-			(xy -36.83 44.45) (xy -13.97 44.45)
+			(xy -41.91 61.595) (xy -19.05 61.595)
 		)
 		(stroke
 			(width 0)
@@ -12095,7 +12107,7 @@
 	)
 	(wire
 		(pts
-			(xy -11.43 46.99) (xy 2.54 46.99)
+			(xy -16.51 64.135) (xy -2.54 64.135)
 		)
 		(stroke
 			(width 0)
@@ -12575,7 +12587,7 @@
 	)
 	(bus
 		(pts
-			(xy -13.97 27.94) (xy -13.97 35.56)
+			(xy -19.05 45.085) (xy -19.05 52.705)
 		)
 		(stroke
 			(width 0)
@@ -12625,7 +12637,7 @@
 	)
 	(wire
 		(pts
-			(xy -53.0785 91.44) (xy -12.4385 91.44)
+			(xy -61.3335 211.455) (xy -20.6935 211.455)
 		)
 		(stroke
 			(width 0)
@@ -12785,7 +12797,7 @@
 	)
 	(wire
 		(pts
-			(xy -52.705 106.68) (xy -12.065 106.68)
+			(xy -60.96 226.695) (xy -20.32 226.695)
 		)
 		(stroke
 			(width 0)
@@ -13105,7 +13117,7 @@
 	)
 	(wire
 		(pts
-			(xy -11.43 34.29) (xy 2.54 34.29)
+			(xy -16.51 51.435) (xy -2.54 51.435)
 		)
 		(stroke
 			(width 0)
@@ -13235,7 +13247,7 @@
 	)
 	(wire
 		(pts
-			(xy -11.43 38.1) (xy 2.54 38.1)
+			(xy -16.51 55.245) (xy -2.54 55.245)
 		)
 		(stroke
 			(width 0)
@@ -13425,7 +13437,7 @@
 	)
 	(wire
 		(pts
-			(xy -52.705 113.665) (xy -12.065 113.665)
+			(xy -60.96 233.68) (xy -20.32 233.68)
 		)
 		(stroke
 			(width 0)
@@ -13515,7 +13527,7 @@
 	)
 	(wire
 		(pts
-			(xy -58.42 149.225) (xy -17.78 149.225)
+			(xy -57.15 266.7) (xy -16.51 266.7)
 		)
 		(stroke
 			(width 0)
@@ -13664,7 +13676,7 @@
 		(uuid "4b2aec7a-e5fa-41ca-ba0d-90dfb1865ecf")
 	)
 	(label "BQ25756_PGn"
-		(at 2.54 34.29 180)
+		(at -2.54 51.435 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13734,7 +13746,7 @@
 		(uuid "6630ce3b-1651-4b08-8f0f-9d15c0662450")
 	)
 	(label "BQ25756_INT"
-		(at 2.54 38.1 180)
+		(at -2.54 55.245 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13784,7 +13796,7 @@
 		(uuid "8e345c6c-9fb5-41e6-b1ee-8eb5e154a733")
 	)
 	(label "~{CHARGER_EN}"
-		(at -45.72 78.74 0)
+		(at -50.8 95.885 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13854,7 +13866,7 @@
 		(uuid "bc613a75-4ab6-435d-8be9-d8106677043f")
 	)
 	(label "I2C1_SDA"
-		(at 2.54 50.8 180)
+		(at -2.54 67.945 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13874,7 +13886,7 @@
 		(uuid "c33548a8-98e4-49b1-9434-8cd4ec7ebf7c")
 	)
 	(label "BQ25756_PGn"
-		(at 2.54 64.77 180)
+		(at -2.54 81.915 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13894,7 +13906,7 @@
 		(uuid "e3e1f08f-7a31-4d3e-bb42-ebc2936576a2")
 	)
 	(label "I2C1_SCL"
-		(at 2.54 46.99 180)
+		(at -2.54 64.135 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13914,7 +13926,7 @@
 		(uuid "e8f0b9c0-e235-4430-b87e-4be3de89b27a")
 	)
 	(label "~{CHARGER_EN}"
-		(at 2.54 30.48 180)
+		(at -2.54 47.625 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13934,7 +13946,7 @@
 		(uuid "f0f4e070-1575-487b-ad11-dd22cf3ac4cb")
 	)
 	(label "PWM_SYNC1"
-		(at 2.54 71.12 180)
+		(at -2.54 88.265 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13955,7 +13967,7 @@
 	)
 	(global_label "BQ25756_PGn"
 		(shape input)
-		(at -27.94 64.77 180)
+		(at -33.02 81.915 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13965,7 +13977,7 @@
 		)
 		(uuid "1b5294bb-5f15-4626-a952-70e74328b99d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -44.2298 64.77 0)
+			(at -49.3098 81.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14003,7 +14015,7 @@
 	)
 	(global_label "PWM_SYNC1"
 		(shape input)
-		(at -29.21 71.12 180)
+		(at -34.29 88.265 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14013,7 +14025,7 @@
 		)
 		(uuid "37bba02e-6265-4d34-a3f6-920a6e8eeba3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -43.4437 71.12 0)
+			(at -48.5237 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14027,7 +14039,7 @@
 	)
 	(global_label "{I2C1}"
 		(shape input)
-		(at -36.83 44.45 180)
+		(at -41.91 61.595 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14037,7 +14049,7 @@
 		)
 		(uuid "46d48db8-7100-4240-a25f-6e153874a669")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -45.8024 44.45 0)
+			(at -50.8824 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14051,7 +14063,7 @@
 	)
 	(global_label "{CHARGER_CONTROL}"
 		(shape input)
-		(at -36.83 27.94 180)
+		(at -41.91 45.085 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14061,7 +14073,7 @@
 		)
 		(uuid "ecb7fb9d-b71f-403d-9c2c-a50283aea846")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -59.6515 27.94 0)
+			(at -64.7315 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14727,7 +14739,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -53.0785 101.6 90)
+		(at -61.3335 221.615 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14737,7 +14749,7 @@
 		(dnp no)
 		(uuid "05ff648c-a843-45f9-9ce1-360af6b081ce")
 		(property "Reference" "#PWR062"
-			(at -49.2685 101.6 0)
+			(at -57.5235 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14748,7 +14760,7 @@
 			)
 		)
 		(property "Value" "+VCHARGE"
-			(at -56.8885 101.6 90)
+			(at -65.1435 221.615 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14759,7 +14771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -53.0785 101.6 0)
+			(at -61.3335 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14770,7 +14782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -53.0785 101.6 0)
+			(at -61.3335 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14781,7 +14793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -53.0785 101.6 0)
+			(at -61.3335 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15075,7 +15087,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -52.07 117.475 90)
+		(at -60.325 237.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15085,7 +15097,7 @@
 		(dnp no)
 		(uuid "0958fc9a-b1dd-42e3-b27c-c29ea8a71a89")
 		(property "Reference" "#PWR0211"
-			(at -48.26 117.475 0)
+			(at -56.515 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15096,7 +15108,7 @@
 			)
 		)
 		(property "Value" "+PPHV_C"
-			(at -55.88 117.475 90)
+			(at -64.135 237.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15107,7 +15119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -52.07 117.475 0)
+			(at -60.325 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15118,7 +15130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -52.07 117.475 0)
+			(at -60.325 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15129,7 +15141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -52.07 117.475 0)
+			(at -60.325 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17507,7 +17519,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -11.43 117.475 270)
+		(at -19.685 237.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17518,7 +17530,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dee4d28-0dcb-4e1a-8e95-8045c3b031fe")
 		(property "Reference" "TP48"
-			(at -5.08 116.2049 90)
+			(at -13.335 236.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17529,7 +17541,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -5.08 118.7449 90)
+			(at -13.335 238.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17540,7 +17552,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -11.43 122.555 0)
+			(at -19.685 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17551,7 +17563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -11.43 122.555 0)
+			(at -19.685 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17562,7 +17574,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -11.43 117.475 0)
+			(at -19.685 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17573,7 +17585,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -11.43 117.475 90)
+			(at -19.685 237.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17584,7 +17596,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -11.43 117.475 90)
+			(at -19.685 237.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18873,7 +18885,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -12.065 106.68 270)
+		(at -20.32 226.695 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18884,7 +18896,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d1e4b71-c991-485c-9c89-6f62dbf7c41d")
 		(property "Reference" "TP46"
-			(at -5.715 105.4099 90)
+			(at -13.97 225.4249 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18895,7 +18907,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -5.715 107.9499 90)
+			(at -13.97 227.9649 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18906,7 +18918,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -12.065 111.76 0)
+			(at -20.32 231.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18917,7 +18929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -12.065 111.76 0)
+			(at -20.32 231.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18928,7 +18940,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -12.065 106.68 0)
+			(at -20.32 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18939,7 +18951,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -12.065 106.68 90)
+			(at -20.32 226.695 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18950,7 +18962,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -12.065 106.68 90)
+			(at -20.32 226.695 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19220,7 +19232,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -17.78 149.225 270)
+		(at -16.51 266.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19230,7 +19242,7 @@
 		(dnp no)
 		(uuid "303b8c62-f391-48f0-a8e3-f84f37b6f3be")
 		(property "Reference" "TP51"
-			(at -12.7 147.955 90)
+			(at -11.43 265.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19241,7 +19253,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -11.43 150.4949 90)
+			(at -10.16 267.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19252,7 +19264,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -17.78 154.305 0)
+			(at -16.51 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19263,7 +19275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -17.78 154.305 0)
+			(at -16.51 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19274,7 +19286,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -17.78 149.225 0)
+			(at -16.51 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19285,7 +19297,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -17.78 149.225 90)
+			(at -16.51 266.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19296,7 +19308,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -17.78 149.225 90)
+			(at -16.51 266.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19320,7 +19332,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -12.4385 101.6 270)
+		(at -20.6935 221.615 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19331,7 +19343,7 @@
 		(fields_autoplaced yes)
 		(uuid "33d06901-9a80-4d56-aa54-bc1d42572242")
 		(property "Reference" "TP18"
-			(at -6.0885 100.3299 90)
+			(at -14.3435 220.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19342,7 +19354,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -6.0885 102.8699 90)
+			(at -14.3435 222.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19353,7 +19365,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -12.4385 106.68 0)
+			(at -20.6935 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19364,7 +19376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -12.4385 106.68 0)
+			(at -20.6935 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19375,7 +19387,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -12.4385 101.6 0)
+			(at -20.6935 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19386,7 +19398,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -12.4385 101.6 90)
+			(at -20.6935 221.615 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19397,7 +19409,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -12.4385 101.6 90)
+			(at -20.6935 221.615 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20055,7 +20067,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -12.4385 86.36 270)
+		(at -20.6935 206.375 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20066,7 +20078,7 @@
 		(fields_autoplaced yes)
 		(uuid "392ee10a-bd20-47c3-b838-bf5923a7eba0")
 		(property "Reference" "TP15"
-			(at -6.0885 85.0899 90)
+			(at -14.3435 205.1049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20077,7 +20089,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -6.0885 87.6299 90)
+			(at -14.3435 207.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20088,7 +20100,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -12.4385 91.44 0)
+			(at -20.6935 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20099,7 +20111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -12.4385 91.44 0)
+			(at -20.6935 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20110,7 +20122,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -12.4385 86.36 0)
+			(at -20.6935 206.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20121,7 +20133,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -12.4385 86.36 90)
+			(at -20.6935 206.375 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20132,7 +20144,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -12.4385 86.36 90)
+			(at -20.6935 206.375 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20336,7 +20348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -58.42 149.225 270)
+		(at -57.15 266.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20347,7 +20359,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b31852e-301e-44ad-85a5-e51cae2601d5")
 		(property "Reference" "#PWR0214"
-			(at -64.77 149.225 0)
+			(at -63.5 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20358,7 +20370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -63.5 149.225 0)
+			(at -62.23 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20369,7 +20381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -58.42 149.225 0)
+			(at -57.15 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20380,7 +20392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -58.42 149.225 0)
+			(at -57.15 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20391,7 +20403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -58.42 149.225 0)
+			(at -57.15 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20792,84 +20804,6 @@
 			(project "240WPD-Powebank"
 				(path "/7af3c7b9-0eb8-4dca-8b7a-7647f0c7a42d/2b283e0e-9b56-4053-a911-9bb4c06860d9"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at -11.43 19.05 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40868c08-4ca9-49f6-91e5-f716fd912519")
-		(property "Reference" "#PWR063"
-			(at -7.62 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at -9.398 17.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -11.43 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -11.43 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -11.43 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fa4c383-f945-4b11-805d-509338ee5e14")
-		)
-		(instances
-			(project "240WPD-Powebank"
-				(path "/7af3c7b9-0eb8-4dca-8b7a-7647f0c7a42d/2b283e0e-9b56-4053-a911-9bb4c06860d9"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -21852,7 +21786,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -52.705 113.665 90)
+		(at -60.96 233.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21862,7 +21796,7 @@
 		(dnp no)
 		(uuid "4d6182dd-a0c3-4491-8565-5cbe5feed6be")
 		(property "Reference" "#PWR0210"
-			(at -48.895 113.665 0)
+			(at -57.15 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21873,7 +21807,7 @@
 			)
 		)
 		(property "Value" "+PPHV"
-			(at -56.515 113.665 90)
+			(at -64.77 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21884,7 +21818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -52.705 113.665 0)
+			(at -60.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21895,7 +21829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -52.705 113.665 0)
+			(at -60.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21906,7 +21840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -52.705 113.665 0)
+			(at -60.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22380,7 +22314,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -52.705 106.68 90)
+		(at -60.96 226.695 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22390,7 +22324,7 @@
 		(dnp no)
 		(uuid "56166474-01a7-4793-99bd-9658bf9a01b4")
 		(property "Reference" "#PWR0209"
-			(at -48.895 106.68 0)
+			(at -57.15 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22401,7 +22335,7 @@
 			)
 		)
 		(property "Value" "+VCHARGE_C"
-			(at -56.515 106.68 90)
+			(at -64.77 226.695 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22412,7 +22346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -52.705 106.68 0)
+			(at -60.96 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22423,7 +22357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -52.705 106.68 0)
+			(at -60.96 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22434,7 +22368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -52.705 106.68 0)
+			(at -60.96 226.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23364,7 +23298,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -12.4385 91.44 270)
+		(at -20.6935 211.455 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23375,7 +23309,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c767281-7b83-491c-af1c-f826aec5510d")
 		(property "Reference" "TP16"
-			(at -6.0885 90.1699 90)
+			(at -14.3435 210.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23386,7 +23320,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -6.0885 92.7099 90)
+			(at -14.3435 212.7249 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23397,7 +23331,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -12.4385 96.52 0)
+			(at -20.6935 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23408,7 +23342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -12.4385 96.52 0)
+			(at -20.6935 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23419,7 +23353,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -12.4385 91.44 0)
+			(at -20.6935 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23430,7 +23364,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -12.4385 91.44 90)
+			(at -20.6935 211.455 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23441,7 +23375,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -12.4385 91.44 90)
+			(at -20.6935 211.455 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23784,7 +23718,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -53.0785 96.52 90)
+		(at -61.3335 216.535 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23794,7 +23728,7 @@
 		(dnp no)
 		(uuid "61113e1b-24f8-441f-8900-76e2da062d27")
 		(property "Reference" "#PWR061"
-			(at -49.2685 96.52 0)
+			(at -57.5235 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23805,7 +23739,7 @@
 			)
 		)
 		(property "Value" "+PPHV"
-			(at -56.8885 96.52 90)
+			(at -65.1435 216.535 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23816,7 +23750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -53.0785 96.52 0)
+			(at -61.3335 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23827,7 +23761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -53.0785 96.52 0)
+			(at -61.3335 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23838,7 +23772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -53.0785 96.52 0)
+			(at -61.3335 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24386,7 +24320,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -8.5165 141.605 270)
+		(at -16.7715 261.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24397,7 +24331,7 @@
 		(fields_autoplaced yes)
 		(uuid "68e15af8-d6c4-42e5-9b0f-c291ce6e8292")
 		(property "Reference" "TP50"
-			(at -2.1665 140.3349 90)
+			(at -10.4215 260.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24408,7 +24342,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -2.1665 142.8749 90)
+			(at -10.4215 262.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24419,7 +24353,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -8.5165 146.685 0)
+			(at -16.7715 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24430,7 +24364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -8.5165 146.685 0)
+			(at -16.7715 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24441,7 +24375,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -8.5165 141.605 0)
+			(at -16.7715 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24452,7 +24386,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -8.5165 141.605 90)
+			(at -16.7715 261.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24463,7 +24397,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -8.5165 141.605 90)
+			(at -16.7715 261.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25461,7 +25395,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -49.1565 141.605 90)
+		(at -57.4115 261.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25471,7 +25405,7 @@
 		(dnp no)
 		(uuid "737c6c43-7cc4-4ee0-b835-038a1dd315a6")
 		(property "Reference" "#PWR0213"
-			(at -45.3465 141.605 0)
+			(at -53.6015 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25482,7 +25416,7 @@
 			)
 		)
 		(property "Value" "+VCHARGE_C"
-			(at -52.9665 141.605 90)
+			(at -61.2215 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25493,7 +25427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -49.1565 141.605 0)
+			(at -57.4115 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25504,7 +25438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -49.1565 141.605 0)
+			(at -57.4115 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25515,7 +25449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -49.1565 141.605 0)
+			(at -57.4115 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26195,7 +26129,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -12.065 113.665 270)
+		(at -20.32 233.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26206,7 +26140,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d97d441-2c90-4f76-b5bd-185ced6df63d")
 		(property "Reference" "TP47"
-			(at -5.715 112.3949 90)
+			(at -13.97 232.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26217,7 +26151,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -5.715 114.9349 90)
+			(at -13.97 234.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26228,7 +26162,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -12.065 118.745 0)
+			(at -20.32 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26239,7 +26173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -12.065 118.745 0)
+			(at -20.32 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26250,7 +26184,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -12.065 113.665 0)
+			(at -20.32 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26261,7 +26195,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -12.065 113.665 90)
+			(at -20.32 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26272,7 +26206,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -12.065 113.665 90)
+			(at -20.32 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26751,7 +26685,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -5.08 78.74 270)
+		(at -10.16 95.885 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26762,7 +26696,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ccb2862-225d-48e7-a47e-61ae646f3c92")
 		(property "Reference" "TP19"
-			(at 1.27 77.4699 90)
+			(at -3.81 94.6149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26773,7 +26707,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.27 80.0099 90)
+			(at -3.81 97.1549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26784,7 +26718,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -5.08 83.82 0)
+			(at -10.16 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26795,7 +26729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -5.08 83.82 0)
+			(at -10.16 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26806,7 +26740,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -5.08 78.74 0)
+			(at -10.16 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26817,7 +26751,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -5.08 78.74 90)
+			(at -10.16 95.885 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26828,7 +26762,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -5.08 78.74 90)
+			(at -10.16 95.885 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30175,7 +30109,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -11.43 121.92 270)
+		(at -19.685 241.935 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30185,7 +30119,7 @@
 		(dnp no)
 		(uuid "ab6c7ef8-4cb0-4440-8956-35e4a832a4f1")
 		(property "Reference" "TP52"
-			(at -6.35 120.65 90)
+			(at -14.605 240.665 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30196,7 +30130,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -5.08 123.1899 90)
+			(at -13.335 243.2049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30207,7 +30141,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -11.43 127 0)
+			(at -19.685 247.015 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30218,7 +30152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -11.43 127 0)
+			(at -19.685 247.015 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30229,7 +30163,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -11.43 121.92 0)
+			(at -19.685 241.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30240,7 +30174,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -11.43 121.92 90)
+			(at -19.685 241.935 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30251,7 +30185,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -11.43 121.92 90)
+			(at -19.685 241.935 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32278,7 +32212,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -49.53 136.525 90)
+		(at -57.785 256.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32288,7 +32222,7 @@
 		(dnp no)
 		(uuid "bb164902-e5f9-46d2-97c2-9839ba9ac939")
 		(property "Reference" "#PWR0212"
-			(at -45.72 136.525 0)
+			(at -53.975 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32299,7 +32233,7 @@
 			)
 		)
 		(property "Value" "+VCHARGE"
-			(at -53.34 136.525 90)
+			(at -61.595 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32310,7 +32244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -49.53 136.525 0)
+			(at -57.785 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32321,7 +32255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -49.53 136.525 0)
+			(at -57.785 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32332,7 +32266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -49.53 136.525 0)
+			(at -57.785 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33123,7 +33057,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -8.89 136.525 270)
+		(at -17.145 256.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33134,7 +33068,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8395f2c-80fa-484b-8e95-cc5f4bc759d1")
 		(property "Reference" "TP49"
-			(at -2.54 135.2549 90)
+			(at -10.795 255.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33145,7 +33079,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -2.54 137.7949 90)
+			(at -10.795 257.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33156,7 +33090,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -8.89 141.605 0)
+			(at -17.145 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33167,7 +33101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -8.89 141.605 0)
+			(at -17.145 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33178,7 +33112,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -8.89 136.525 0)
+			(at -17.145 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33189,7 +33123,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -8.89 136.525 90)
+			(at -17.145 256.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33200,7 +33134,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -8.89 136.525 90)
+			(at -17.145 256.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34933,7 +34867,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -53.0785 86.36 90)
+		(at -61.3335 206.375 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34943,7 +34877,7 @@
 		(dnp no)
 		(uuid "dd0cebfc-9056-4bca-8df8-cfc3339723cd")
 		(property "Reference" "#PWR059"
-			(at -49.2685 86.36 0)
+			(at -57.5235 206.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34954,7 +34888,7 @@
 			)
 		)
 		(property "Value" "+REGN"
-			(at -60.6985 86.36 90)
+			(at -68.9535 206.375 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34964,7 +34898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -53.0785 86.36 0)
+			(at -61.3335 206.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34975,7 +34909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -53.0785 86.36 0)
+			(at -61.3335 206.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34986,7 +34920,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -53.0785 86.36 0)
+			(at -61.3335 206.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35300,7 +35234,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at -12.4385 96.52 270)
+		(at -20.6935 216.535 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35311,7 +35245,7 @@
 		(fields_autoplaced yes)
 		(uuid "ded3fcff-e820-4994-ac8c-23c31b8cc0ae")
 		(property "Reference" "TP17"
-			(at -6.0885 95.2499 90)
+			(at -14.3435 215.2649 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35322,7 +35256,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -6.0885 97.7899 90)
+			(at -14.3435 217.8049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35333,7 +35267,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TP_0.7mm"
-			(at -12.4385 101.6 0)
+			(at -20.6935 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35344,7 +35278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -12.4385 101.6 0)
+			(at -20.6935 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35355,7 +35289,7 @@
 			)
 		)
 		(property "Description" "Round Testpoint 0.7mm Diameter"
-			(at -12.4385 96.52 0)
+			(at -20.6935 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35366,7 +35300,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" ""
-			(at -12.4385 96.52 90)
+			(at -20.6935 216.535 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35377,7 +35311,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" ""
-			(at -12.4385 96.52 90)
+			(at -20.6935 216.535 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35647,7 +35581,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at -53.0785 91.44 90)
+		(at -61.3335 211.455 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35657,7 +35591,7 @@
 		(dnp no)
 		(uuid "e404ea8f-1b2e-4d04-b312-ba93a4ea8d09")
 		(property "Reference" "#PWR060"
-			(at -49.2685 91.44 0)
+			(at -57.5235 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35668,7 +35602,7 @@
 			)
 		)
 		(property "Value" "+7V"
-			(at -59.4285 91.44 90)
+			(at -67.6835 211.455 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35678,7 +35612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -53.0785 91.44 0)
+			(at -61.3335 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35689,7 +35623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -53.0785 91.44 0)
+			(at -61.3335 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35700,7 +35634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -53.0785 91.44 0)
+			(at -61.3335 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36097,7 +36031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -52.07 121.92 270)
+		(at -60.325 241.935 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36108,7 +36042,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9dcae33-b1c2-48a7-9973-181d04394326")
 		(property "Reference" "#PWR0215"
-			(at -58.42 121.92 0)
+			(at -66.675 241.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36119,7 +36053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -57.15 121.92 0)
+			(at -65.405 241.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36130,7 +36064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -52.07 121.92 0)
+			(at -60.325 241.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36141,7 +36075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -52.07 121.92 0)
+			(at -60.325 241.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36152,7 +36086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -52.07 121.92 0)
+			(at -60.325 241.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

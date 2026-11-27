@@ -6765,24 +6765,6 @@
 		(color 0 0 0 0)
 		(uuid "f7a8763d-e193-4837-a5f6-dd710d30d3c5")
 	)
-	(bus_entry
-		(at -24.13 30.48)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24611588-c2ae-46d2-a757-4d323d4090aa")
-	)
-	(bus_entry
-		(at -24.13 26.67)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8148402-cf27-4725-9190-ff06cecaba43")
-	)
 	(wire
 		(pts
 			(xy 63.5 144.145) (xy 77.47 144.145)
@@ -6862,16 +6844,6 @@
 			(type default)
 		)
 		(uuid "0ad35c32-36f1-4695-8f23-623e30c1ae2b")
-	)
-	(wire
-		(pts
-			(xy -21.59 33.02) (xy -7.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd96dce-a1d6-4ada-80b2-007618876f37")
 	)
 	(wire
 		(pts
@@ -7232,16 +7204,6 @@
 			(type default)
 		)
 		(uuid "7260af66-a8eb-4eb2-b9eb-1219cb3a1a76")
-	)
-	(bus
-		(pts
-			(xy -24.13 26.67) (xy -24.13 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733c3af1-d567-411e-8b65-bcc5a3c13126")
 	)
 	(wire
 		(pts
@@ -7855,16 +7817,6 @@
 	)
 	(wire
 		(pts
-			(xy -21.59 29.21) (xy -7.62 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed78f415-0dae-4ece-b800-ecc67d34ad6d")
-	)
-	(wire
-		(pts
 			(xy 41.91 164.465) (xy 62.23 164.465)
 		)
 		(stroke
@@ -8003,16 +7955,6 @@
 		)
 		(uuid "4c66542c-4dab-4eb3-8675-40c4f153ffcd")
 	)
-	(label "I2C0_SCL"
-		(at -7.62 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d3976dd-44f7-49ec-ba6a-0945b23f5a49")
-	)
 	(label "TPS26631_EN"
 		(at 316.23 44.45 180)
 		(effects
@@ -8063,16 +8005,6 @@
 		)
 		(uuid "85e9ecab-83d6-4539-af47-07553719cf0e")
 	)
-	(label "I2C0_SDA"
-		(at -7.62 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e909f7c-2b6e-4cc5-a940-9e63df17e475")
-	)
 	(label "TPS26631_EN"
 		(at 110.49 93.98 180)
 		(effects
@@ -8122,30 +8054,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd5bac13-6da0-4af3-becf-d2a318756e05")
-	)
-	(global_label "{I2C1}"
-		(shape input)
-		(at -45.72 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b18699c7-deb6-43e4-a02d-d8a4024d94f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -54.6924 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "JLC2KiCad:24_245_2")

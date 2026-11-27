@@ -3870,7 +3870,19 @@
 		)
 		(uuid "276930bf-71aa-472f-a572-35715538ca00")
 	)
-	(text_box "The Battery Managment System, should be integrated into the battery. \nAnd should have a Fuse for basic Battery Protection"
+	(text "Testpoints"
+		(exclude_from_sim no)
+		(at -24.13 38.1 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "72f48f16-8ccc-4d75-9f93-aea1e0bf71fd")
+	)
+	(text_box "The Battery Managment System (BMS) should be built in into the battery. \nAnd must have a Fuse, to protect it from hard shorts!"
 		(exclude_from_sim no)
 		(at 200.66 40.005 0)
 		(size 34.29 12.7)
