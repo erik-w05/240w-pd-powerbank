@@ -1,0 +1,253 @@
+(footprint "L_Wurth_WE-XHMI-1010P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shielded Power Inductor, body 10x11.3x10mm, https://www.we-online.com/en/components/products/WE-XHMI#/articles/WE-XHMI-1010-P")
+	(tags "SMT")
+	(property "Reference" "L"
+		(at 0 -6.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "892416c3-0429-4a50-9157-dd209bc8a5b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "22uH"
+		(at 0 6.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75e2c007-90b5-44b9-a4af-882b5c52e9d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca0b649f-af55-4bcc-9f10-fa60bf5436a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be3b0fc5-7b9f-44d9-847b-7b3e77a752d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "744393605220"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f487d940-adc5-4c1b-96b2-95801931c789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/charger/")
+	(sheetfile "chargeer.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.11 5.76)
+		(end -5.11 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83f77cbb-3b8f-4dd8-acd4-56cbf22124c6")
+	)
+	(fp_line
+		(start -5.11 5.76)
+		(end 5.11 5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29b409ca-e019-463d-a6be-be4a91fd9678")
+	)
+	(fp_line
+		(start 0 -5.76)
+		(end 5.11 -5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cff5444-3c51-47e8-bcfd-56ee7ae18aa8")
+	)
+	(fp_line
+		(start 5.11 -5.76)
+		(end 5.11 5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cfea51a-a6e9-4c25-93e0-6c2de0e6efa5")
+	)
+	(fp_rect
+		(start -5.5 -6.2)
+		(end 5.5 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "50034312-48ae-42d2-b41e-7cc2ad6d2fc9")
+	)
+	(fp_line
+		(start -5 -3.15)
+		(end -5 5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e52aee7-7b65-462a-a788-f106649ba5ab")
+	)
+	(fp_line
+		(start -5 5.65)
+		(end 5 5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b2a1180-cbb8-4f6c-bc0f-eeea6cb2b7b4")
+	)
+	(fp_line
+		(start -2.5 -5.65)
+		(end -5 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f643ccc-6e74-4953-9528-e6f043410680")
+	)
+	(fp_line
+		(start 5 -5.65)
+		(end -2.5 -5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e03dead0-572e-43f8-8e9c-1db8c7347138")
+	)
+	(fp_line
+		(start 5 5.65)
+		(end 5 -5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0527ff28-d880-4b06-9128-478e46e3a684")
+	)
+	(fp_text user "Solder Resist"
+		(at 0 -2.95 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "416ae9c8-e3d9-4b76-9487-6197d1096039")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb7aa115-68f6-4e1a-8bb2-e187ad0b99d0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.2 0)
+		(size 2.5 9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2da6d281-f8e7-4931-a091-f5d225e5ea0d")
+	)
+	(pad "2" smd rect
+		(at 3.2 0)
+		(size 2.5 9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ee7a6805-f88f-4b9a-b069-69eebc67830d")
+	)
+	(zone
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "76721513-a35c-473b-b684-f90a379b5d13")
+		(name "Solder Resist")
+		(hatch full 0.1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.95 5.9) (xy 1.95 5.9) (xy 1.95 -5.9) (xy -1.95 -5.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/kemch/Documents/KiCad/10.0/3dmodels/L_Wurth_WE-XHMI-1010P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
