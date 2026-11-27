@@ -1,0 +1,229 @@
+(footprint "R_Array_Concave_4x0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)")
+	(tags "resistor array")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "fe5453d5-ef02-4f3c-93d7-bbd499686039")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Array_Concave_4x0402"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "3a738dc3-5a0e-41b8-bab1-b4f117976cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "553adab9-0f0f-47ab-a19c-5a40bc077c7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5813352c-82c8-434d-82e6-d5a83bf2fcfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.25 -1.14)
+		(end -0.25 -1.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d55f028b-fd7b-4f83-b734-932592c4e9a8")
+	)
+	(fp_line
+		(start 0.25 1.14)
+		(end -0.25 1.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e4a919e-7c4f-4239-848f-1b55358222f5")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47719de5-dcb6-4797-8fc0-0047083f313c")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1af0b3f7-fc11-4960-bc65-688f433d7b30")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b47bb32c-bbf0-44ce-bb01-d3a3fb821f0d")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adc7df8c-8532-4c90-815b-bb0185fefc1c")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8478e42b-da8b-4931-8001-f5e95288c53b")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1754801-eac2-41a2-bb9a-58016ffb60ab")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end 0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "075ef8cb-1b6a-4bb9-8b5d-c85baa7e0377")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end -0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76770597-5ce5-4f58-90ba-910eb4e4628a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "fb69f2cb-15a4-4ac4-9f0a-fa0c09fa84de")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "402cd75b-7b6c-43ec-9f74-ab3174050253")
+	)
+	(pad "2" smd rect
+		(at -0.5 -0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "021494a8-73ec-4073-9ee2-87902f0df973")
+	)
+	(pad "3" smd rect
+		(at -0.5 0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab1c7768-3c87-4927-8399-15b49c023699")
+	)
+	(pad "4" smd rect
+		(at -0.5 0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1fcc1eb-5785-420b-99fc-812437540926")
+	)
+	(pad "5" smd rect
+		(at 0.5 0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11f6003b-d83c-451a-a811-a791f77b64c7")
+	)
+	(pad "6" smd rect
+		(at 0.5 0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29e03280-211f-42c3-aeaf-d63d206d920b")
+	)
+	(pad "7" smd rect
+		(at 0.5 -0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f10a55c7-b45d-4fc9-93ae-b9c61746d554")
+	)
+	(pad "8" smd rect
+		(at 0.5 -0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca9333b6-8b67-4394-99c1-42360fed6e29")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Concave_4x0402.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

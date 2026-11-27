@@ -1,0 +1,141 @@
+(footprint "TP_0.7mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP"
+		(at 0 -0.00009 90)
+		(layer "F.Fab")
+		(uuid "b0f52220-d1cb-4279-a7d6-a2aa1758d21b")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.35 0.35)
+				(thickness 0.0875)
+			)
+		)
+		(render_cache "TP" 90
+			(polygon
+				(pts
+					(xy 0.14525 0.185818) (xy -0.165573 0.185818) (xy -0.165573 0.301308) (xy -0.206264 0.301308) (xy -0.206264 0.023482)
+					(xy -0.165573 0.023482) (xy -0.165573 0.139442) (xy 0.14525 0.139442)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.083244 -0.289871) (xy -0.063628 -0.2845) (xy -0.045847 -0.27569) (xy -0.029588 -0.263277)
+					(xy -0.019553 -0.251667) (xy -0.011188 -0.236464) (xy -0.004649 -0.216878) (xy -0.000304 -0.191929)
+					(xy 0.001293 -0.160481) (xy 0.001293 -0.070572) (xy 0.14525 -0.070572) (xy 0.14525 -0.024196) (xy -0.206264 -0.024196)
+					(xy -0.206264 -0.156399) (xy -0.206151 -0.160224) (xy -0.165573 -0.160224) (xy -0.165573 -0.070572)
+					(xy -0.039397 -0.070572) (xy -0.039397 -0.161186) (xy -0.040727 -0.184389) (xy -0.044283 -0.202045)
+					(xy -0.049553 -0.215279) (xy -0.056238 -0.225022) (xy -0.068629 -0.235296) (xy -0.084131 -0.241645)
+					(xy -0.103682 -0.243914) (xy -0.118103 -0.242612) (xy -0.130627 -0.238877) (xy -0.141616 -0.232801)
+					(xy -0.151006 -0.224535) (xy -0.157883 -0.214847) (xy -0.162453 -0.203501) (xy -0.164597 -0.189323)
+					(xy -0.165573 -0.160224) (xy -0.206151 -0.160224) (xy -0.205295 -0.189251) (xy -0.20293 -0.20972)
+					(xy -0.196477 -0.23402) (xy -0.186581 -0.252997) (xy -0.177667 -0.263683) (xy -0.166512 -0.273031)
+					(xy -0.152814 -0.281079) (xy -0.13803 -0.286943) (xy -0.122201 -0.290506) (xy -0.105114 -0.291722)
+				)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 7.85575 2.08455 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "91205c67-474c-481b-94c8-3429f0d3e79d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a07b5d8f-20c1-4772-b768-43367109d18e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Test Point, Round, 0.7mm"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "aec05e13-25ac-4d0a-a739-06e8f1387d90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2503342-f5d8-4151-b0f5-9edb19403658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Pin* Test*")
+	(sheetname "/Project Architecture/MCU - Unit/")
+	(sheetfile "mcu_unit.kicad_sch")
+	(attr smd exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 -0.00009)
+		(end 0 -0.50009)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d752ad34-54ca-49a6-ae70-3ce1a08c4c3a")
+	)
+	(fp_circle
+		(center 0 -0.00009)
+		(end 0 -0.35009)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "56d86ea3-120d-4a83-8f77-71844c921c18")
+	)
+	(pad "1" smd circle
+		(at 0 0.00008)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -1)
+		(thermal_bridge_angle 90)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "bbe2ff2b-f5f8-4f2e-bc07-324605ab02d5")
+	)
+	(embedded_fonts no)
+)
