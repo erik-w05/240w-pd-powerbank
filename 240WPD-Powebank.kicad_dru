@@ -1,0 +1,212 @@
+(version 1)
+
+#  SECTIONS
+#   1. FAB    JLCPCB manufacturing baseline
+#   2. HV     High-voltage net-class spacing
+#   3. PKG    Fine-pitch package exceptions (USB-C, MCU)
+#   4. SENSE  HV differential current sensing
+#   5. GATE   Gate-drive net pairs
+#   6. COURT   Assembly / courtyard
+
+
+# =============================================================================
+#  1. FAB - JLCPCB manufacturing baseline
+#     Board-wide limits. Later sections loosen or tighten these.
+# =============================================================================
+
+(rule "Clearance: track to NPTH hole (perimeter)"
+	(condition "!A.isPlated() && B.Type == 'track' && A.Net != B.Net")
+	(constraint hole_clearance (min 0.254mm))
+)
+
+(rule "Clearance: track to pad"
+	(condition "A.Type == 'pad' && B.Type == 'track' &&  A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "Clearance: hole to hole (perimeter), different nets"
+	(layer outer)
+	(condition "A.Net != B.Net")
+	(constraint hole_to_hole (min 0.5mm))
+)
+
+(rule "Clearance: hole to hole (perimeter), same net"
+	(layer outer)
+	(condition "A.Net == B.Net")
+	(constraint hole_to_hole (min 0.254mm))
+)
+
+# =============================================================================
+#  2. HV - High-voltage net-class spacing
+#     Each rule applies its net class against everything else.
+#
+#                      clearance   hole_clearance   edge_clearance
+#     +VBUS     outer    0.35          0.60             0.40
+#               inner    0.35          0.70             0.40
+#     +VCHARGE  outer    0.65          0.80             0.40
+#               inner    0.60          0.50             0.40   <- REVIEW
+# =============================================================================
+
+(rule "HV: +VBUS outer"
+  (layer outer)
+  (condition "A.hasNetclass('+VBUS')")
+  (constraint clearance (min 0.35mm))
+  (constraint hole_clearance (min 0.60mm))
+  (constraint edge_clearance (min 0.40mm)))
+
+(rule "HV: +VBUS inner"
+  (layer inner)
+  (condition "A.hasNetclass('+VBUS')")
+  (constraint clearance (min 0.35mm))
+  (constraint hole_clearance (min 0.70mm))
+  (constraint edge_clearance (min 0.40mm)))
+
+(rule "HV: +VCHARGE outer"
+  (layer outer)
+  (condition "A.hasNetclass('+VCHARGE')")
+  (constraint clearance (min 0.65mm))
+  (constraint hole_clearance (min 0.80mm))
+  (constraint edge_clearance (min 0.40mm)))
+
+(rule "HV: +VCHARGE inner"
+  (layer inner)
+  (condition "A.hasNetclass('+VCHARGE')")
+  (constraint clearance (min 0.60mm))
+  (constraint hole_clearance (min 0.50mm))
+  (constraint edge_clearance (min 0.40mm)))
+
+# =============================================================================
+# 3. PKG: CLEARANCE EXCEPTIONS FOR PACKAGE LIMITS
+#    Parts whose pad pitch can't meet the spacing above. Scoped by rule area.
+# =============================================================================
+
+# USB-C Connector
+(rule "PKG: USB-C Outer"
+  (layer outer)
+  (constraint clearance (min 0.1mm))
+  (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('USB_C') && B.intersectsArea('USB_C')"))
+
+(rule "PKG: USB-C Inner"
+  (constraint clearance (min 0.3mm))
+  (layer inner)
+  (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('USB_C') && B.intersectsArea('USB_C')"))
+
+(rule "PKG: USB-C Edge Clearance"
+  (condition "A.intersectsArea('USB_C')")
+  (constraint edge_clearance (min 0.25mm)))
+
+(rule "PKG: USB-C copper to NPTH"
+  (condition "A.intersectsArea('USB_C') && (A.Type == 'Track' || A.Type == 'Pad') && B.Pad_Type == 'NPTH, mechanical'")
+  (constraint hole_clearance (min 0.10mm))
+  (constraint edge_clearance (min 0.10mm)))
+
+(rule MCU_CLEARANCE
+  (constraint clearance (min 0.15mm))
+  (condition "A.enclosedByArea('MCU')"))
+
+(rule BQ_PACKAGE
+  (constraint clearance (min 0.2mm))
+  (constraint hole_clearance (min 0.35mm))
+  (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('BQ_PACKAGE') && B.intersectsArea('BQ_PACKAGE')"))
+
+(rule INA_PACKAGE
+  (constraint clearance (min 0.2mm))
+  (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('INA_PACKAGE') && B.intersectsArea('INA_PACKAGE')"))
+
+(rule PORT_PROTECTOR_CLEARANCE
+   (constraint clearance (min 0.2mm))
+   (constraint hole_clearance (min 0.25mm))
+   (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('PORT_PROTECTOR_CLEARANCE') && B.intersectsArea('PORT_PROTECTOR_CLEARANCE')"))
+
+(rule ORING_CLEARANCE_BAT
+   (constraint clearance (min 0.2mm))
+   (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('ORING_CLEARANCE_BAT') && B.intersectsArea('ORING_CLEARANCE_BAT')"))
+
+(rule ORING_CLEARANCE_VBUS
+   (constraint clearance (min 0.2mm))
+   (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('ORING_CLEARANCE_VBUS') && B.intersectsArea('ORING_CLEARANCE_VBUS')"))
+
+(rule ORING_CLEARANCE_FETS
+   (constraint clearance (min 0.2mm))
+   (condition "A.Type == 'Pad' && B.Type == 'Pad' &&  A.intersectsArea('ORING_CLEARANCE_FETS') && B.intersectsArea('ORING_CLEARANCE_FETS')"))
+
+(rule AP_BAT_PACKAGE
+  (constraint clearance (min 0.2mm))
+  (constraint hole_clearance (min 0.35mm))
+  (condition "A.Type != 'Zone' && B.Type != 'Zone' &&  A.intersectsArea('AP_BAT_PACKAGE') && B.intersectsArea('AP_BAT_PACKAGE')"))
+
+(rule AP_BAT_VCAP
+(constraint clearance (min 0.2mm))
+(condition "A.NetName == 'AP_BAT_VCAP' && B.NetName == 'AP_BAT_VIN'"))
+
+# =============================================================================
+#  4. SENSE - HV differential current sensing
+#     Shunts and sense lines sit on the HV rails but need tight spacing at
+#     the shunt pads and the amplifier pins.
+# =============================================================================
+
+(rule "SENSE: SR_RE shunt"
+(constraint hole_clearance (min 0.25mm))
+(constraint clearance (min 0.15mm))
+(condition "A.intersectsArea('SR_RE')"))
+
+(rule "SENSE: AC_RE shunt"
+(constraint clearance (min 0.15mm))
+(condition "A.intersectsArea('AC_RE')"))
+
+(rule AC_RE_TRACE
+(constraint clearance (min 0.2mm))
+(condition "(A.NetName == ('AC_P') && B.NetName == ('AC_N')) || (A.NetName == ('AC_N') && B.NetName == ('AC_P'))"))
+
+(rule AC_RE_INA
+(constraint clearance (min 0.2mm))
+(constraint hole_clearance (min 0.4mm))
+(condition "A.intersectsArea('AC_RE_INA') && B.intersectsArea('AC_RE_INA') && A.hasNetclass('+VBUS') && B.hasNetclass('+VBUS')"))
+
+(rule AC_RE_INA_NT
+(constraint clearance (min 0.2mm))
+(constraint hole_clearance (min 0.4mm))
+(condition "A.intersectsArea('AC_RE_INA_NT') && B.intersectsArea('AC_RE_INA_NT') && A.Type != 'Zone' && B.Type != 'Zone'"))
+
+
+# =============================================================================
+#  5. GATE - Gate-drive net pairs
+#     A gate net is referenced to the node its FET switches, so it may run
+#     closer to that node than the HV class spacing. Being last, these take
+#     precedence over every rule above for the net pairs they name.
+# =============================================================================
+
+(rule SW_G_Clearance
+(constraint clearance (min 0.2mm))
+(condition "A.NetClass == '+VGATE_HV' && B.NetClass == 'SW_NODE'"))
+
+(rule LD_G_CLEARANCE
+(constraint clearance (min 0.2mm))
+(condition "A.NetClass == '+VGATE_LV' && B.Net == 'GND'"))
+
+(rule ORING_G_CLEARANCE
+(constraint clearance (min 0.2mm))
+(condition "A.NetClass == '+VGATE_HV' && B.NetClass == '+VCHARGE' && A.intersectsArea('ORING_VCHARGE')"))
+
+(rule ORING_G_CLEARANCE2
+(constraint clearance (min 0.2mm))
+(condition "A.NetClass == '+VGATE_HV' && B.NetClass == '+VBUS' && A.intersectsArea('ORING_VBUS')"))
+
+(rule AP_BAT_GATE
+(constraint clearance (min 0.2mm))
+(constraint hole_clearance (min 0.4mm))
+(condition "A.NetClass == '+VGATE_HV' && B.NetClass == '+VCHARGE' && A.intersectsArea('AP_BAT') && B.intersectsArea('AP_BAT')"))
+
+# =============================================================================
+#  6. COURT - Courtyard
+# =============================================================================
+
+# (TP and other footprints may sit inside a test point's courtyard)
+(rule "TP_courtyard_overlap_allowed"
+  (constraint courtyard_clearance (min 0mm))
+  (condition "A.Type == 'Footprint' && (A.Reference == 'TP*' || B.Reference == 'TP*')")
+  (severity ignore))
+
+(rule "IGNORE PWM CLEARANCE TO GND and LV Power"
+(constraint clearance (max 0.15mm))
+(condition "A.NetName == 'GND' && A.NetClass == 'LV' && B.NetClass == 'PWM'"))
